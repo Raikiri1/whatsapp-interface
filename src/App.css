@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.chat-sidebar {
+  flex: 0 0 300px;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.chat-window {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.message-input {
+  flex: 0 0 60px;
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+

@@ -1,0 +1,28 @@
+.header {
+      max-width: 100%;
+      width: 100%;
+      height: 50px;
+      background-color: #075e54;
+      position: sticky;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    .exitButton {
+      padding: 10px 20px;
+      background-color: #128c07;
+      border-radius: 16px;
+      display: flex;
+      margin-right: 30px;
+      margin-left: auto;
+      transition: background-color 0.3s ease;
+    }
+    
+    .exitButton:hover {
+      background-color: #25d91a;
+      cursor: pointer;
+      outline: 1px solid #0a540a;
+    }
+    

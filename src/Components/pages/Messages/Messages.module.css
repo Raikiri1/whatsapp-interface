@@ -1,0 +1,71 @@
+.messagesWrapper {
+      max-width: 1600px;
+      width: 100%;
+      max-height: 800px;
+      height: 100vh;
+      margin: 38px;
+      display: flex;
+    }
+    
+    .chats {
+      max-width: 450px;
+      width: 100%;
+      height: 100%;
+      overflow-y: auto;
+      background-color: #fff;
+      border: 1px solid #d6d6d6;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .messages {
+      height: 100%;
+      display: grid;
+      grid-template-rows: 80px 1fr 80px;
+    }
+    
+    .messageForm {
+      max-width: 100%;
+      height: 80px;
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 16px;
+    }
+    
+    .search {
+      display: flex;
+      align-items: center;
+    }
+    
+    .searchInput {
+      flex: 1;
+      height: 30px;
+      max-width: 100%;
+      padding: 18px 20px;
+      border-radius: 30px;
+      border: none;
+      background-color: #f8f9fa;
+      margin: 10px 20px;
+      color: #333;
+      transition: background-color 0.2s ease-in-out;
+    }
+    
+    .searchInput:hover {
+      background-color: #ebebeb;
+    }
+    
+    .searchButton {
+      width: 80px;
+      height: 36px;
+      background-color: #f8f9fa;
+      color: #333;
+      border-radius: 30px;
+      margin: 10px;
+      transition: background-color 0.2s ease-in-out;
+    }
+    
+    .searchButton:hover {
+      background-color: #ebebeb;
+    }
+    

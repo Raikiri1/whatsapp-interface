@@ -1,0 +1,46 @@
+.users {
+      margin: 0;
+      cursor: pointer;
+      padding-left: 16px;
+    }
+    
+    .avatar {
+      width: 50px;
+    }
+    
+    .userItem {
+      height: 72px;
+      display: flex;
+      align-items: center;
+      padding: 10px 16px;
+      border-bottom: 1px solid #ddd;
+      transition: background-color 0.3s ease;
+    }
+    
+    .userItem:last-child {
+      border-bottom: none;
+    }
+    
+    .mainInfo {
+      display: flex;
+      flex-direction: column;
+      margin-left: 16px;
+      width: 100%;
+    }
+    
+    .username {
+      font-weight: bold;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    
+    .lastMessage {
+      font-size: 13px;
+      color: #999;
+    }
+    
+    .userItem.activeContact {
+      background-color: #4d90fe;
+      color: #fff;
+    }
+    
